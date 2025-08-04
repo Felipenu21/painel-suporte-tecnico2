@@ -1,50 +1,42 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nunes Suporte Técnico - Download</title>
+  <meta charset="UTF-8">
+  <title>Painel de Suporte Técnico</title>
   <style>
     body {
+      background-color: #111;
+      color: #f0f0f0;
       font-family: Arial, sans-serif;
-      background-color: #0f172a;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
       text-align: center;
+      padding: 50px;
     }
     h1 {
-      margin-bottom: 0.2em;
+      font-size: 2.5em;
     }
-    p {
-      max-width: 500px;
-      color: #a0aec0;
-    }
-    a.button {
-      margin-top: 2em;
-      padding: 1em 2em;
-      background-color: #2563eb;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
+    .botao-download {
+      display: inline-block;
+      padding: 15px 25px;
+      margin-top: 30px;
       font-size: 1.2em;
-      transition: background-color 0.3s ease;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      text-decoration: none;
+      transition: background-color 0.3s;
     }
-    a.button:hover {
-      background-color: #1e40af;
+    .botao-download:hover {
+      background-color: #218838;
     }
   </style>
 </head>
 <body>
-  <h1>🎯 Nunes Suporte Técnico</h1>
-  <p>Baixe aqui o instalador oficial assinado do Nunes Suporte Técnico para Windows.</p>
-  <a href="https://github.com/Felipenu21/painel-suporte-tecnico1/releases/download/v1.0/instalador_nunes.exe" class="button" download>
-    📥 Baixar Instalador
+  <h1>🔧 Painel de Suporte Técnico</h1>
+  <p>Clique abaixo para baixar o instalador:</p>
+
+  <a class="botao-download" href="https://github.com/Felipenu21/painel-suporte-tecnico1/releases/download/v1.0/instalador_nunes.exe" target="_blank">
+    📦 Baixar Instalador
   </a>
 </body>
 </html>
